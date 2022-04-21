@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    color: orange;
+    font-size: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+section {
+    background-color: orange;
+    color: white;
+    height: 680px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+#puntuaciones {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    height: 40px;
+    width: 350px;
+    margin: auto;
+}
+
+#etiqueta_usuario {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#etiqueta_computadora {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#puntuacion_jugador {
+    font-size: 35px;
+    padding: 20px;
+    display: inline;
+}
+
+#puntuacion_maquina {
+    font-size: 35px;
+    padding: 20px;
+    display: inline;
+}
+
+#contador {
+    font-size: 15px;
+}
+
+#jugadas {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#resultado {
+    margin-top: 50px;
+}
+
+#resultado h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+#info {
+    text-align: center;
+    margin: 10px;
+}
+
+#reset {
+    padding: 20px;
+    background-color: rgb(226, 148, 45);
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#piedra {
+    cursor: pointer;
+}
+
+#piedra:hover {
+    border: 10px rgb(0, 0, 0);
+}
+
+#papel {
+    cursor: pointer;
+}
+
+#tijera {
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+}

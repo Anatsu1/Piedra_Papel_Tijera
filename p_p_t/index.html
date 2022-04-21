@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piedra_Papel_Tijera</title>
+</head>
+
+<body>
+    <header>
+        <h1>Piedra_Papel_Tijera</h1>
+    </header>
+    <section>
+        <div id="puntuaciones">
+            <p id="etiqueta_usuario">Usuario</p>
+            <div id="contador"><span><h3 id="puntuacion_jugador">0</h3></span>:<span><h3  id="puntuacion_maquina">0</h3></span></div>
+            <p id="etiqueta_computadora">IA</p>
+        </div>
+        <div id="resultado">
+            <h2 id="texto_cambiante">Esperando movimiento del jugador</h2>
+        </div>
+        <div id="jugadas">
+            <a onclick="calcular_jugada(0)"><img src="img/piedra.png" id="piedra"></a>
+            <a onclick="calcular_jugada(1)"><img src="img/papel.png" id="papel"></a>
+            <a onclick="calcular_jugada(2)"><img src="img/tijera.png" id="tijera"></a>
+        </div>
+        <div id="info">
+            <button id="reset" onclick="resetear_puntaje()">Reset</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <footer>Pagina desarrollada por AN47SU</footer>
+</body>
+
+</html>
